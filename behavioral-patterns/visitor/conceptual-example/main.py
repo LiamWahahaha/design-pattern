@@ -43,7 +43,7 @@ class ConcreteComponentB(Component):
     Same here: visitConcreteComponentB => ConcreteComponentB
     """
 
-    def accept(self, visitor: Vistor):
+    def accept(self, visitor: Visitor):
         visitor.visit_concrete_component_b(self)
 
     def special_method_of_concrete_component_b(self) -> str:

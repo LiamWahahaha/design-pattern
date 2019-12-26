@@ -80,8 +80,8 @@ if __name__ == "__main__":
 
     implementation = ConcreteImplementationB()
     base_abstraction = Abstraction(implementation)
-    client_code(base_abstraction)
-    print("\n")
+    # client_code(base_abstraction)
+    # print("\n")
 
     abstraction = ExtendedAbstraction(implementation)
     client_code(abstraction)
